@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "secret",
+    "database": "Todolist",
+    "host": "localhost",
+    "dialect": "postgres",
+    "url": "postgres://iyrdjfly:r4l3a7IRvRvHJqk4OJ5ku-veMJGKU9RU@balarama.db.elephantsql.com:5432/iyrdjfly",
+    "operatorsAliases": "0"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}
